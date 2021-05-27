@@ -335,7 +335,7 @@
     <fields>
         <fullName>Risk_Level__c</fullName>
         <externalId>false</externalId>
-        <label>Risk Level</label>
+        <label>Case Risk Level</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
