@@ -15,4 +15,14 @@ private class CaseHandlerTest {
        case c= [select id ,Risk_Level__c from Case limit 1];
         System.assertEquals('High', c.Risk_Level__c);
     }
+    
+     @isTest static void checkTask(){
+        Case cs = new Case(subject = 'My Test case',Description='Desr1', status='New', Origin='phone');
+        insert cs;       
+        cs.Status='Open';
+        update cs;
+         
+       Integer ts= [select count()  from Task limit 1];
+       System.assertEquals(1, ts);
+    }
 }
