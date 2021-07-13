@@ -15,4 +15,6 @@ private class CaseHandlerTest {
        case c= [select id ,Risk_Level__c from Case limit 1];
         System.assertEquals('High', c.Risk_Level__c);
     }
+
+
 }

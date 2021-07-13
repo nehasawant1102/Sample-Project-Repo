@@ -16,11 +16,15 @@ public class CaseHandler{
          
         for (Case cs : newValues) {
             for(String str:keywords){
+
             if(cs.Description.containsIgnoreCase(str)){
+
                 cs.Risk_Level__c='High';
                 }
             }
         }
        
    }
+
+
 }
