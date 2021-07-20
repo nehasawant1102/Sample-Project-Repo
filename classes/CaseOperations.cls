@@ -12,7 +12,7 @@ public class CaseOperations{
             if(cs.status == 'Open'){
             cs.Description = 'Default description';
             cs.Origin='Phone';
-            cs.Priority	 = 'Medium';   
+            cs.Reason='Instructions not clear'; 
             }    
       }
    }     
