@@ -8,7 +8,7 @@ public class AccountOperations {
      * @return account
      */
     public static Account setDefaultDescription(Account a) {
-        a.Description = 'Default description';
+        a.Description = 'Sample Default description';
         return a;
     }
 }
