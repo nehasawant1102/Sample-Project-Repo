@@ -8,7 +8,7 @@ public class OpportunityOperations {
      * @return opportunity
      */    
     public static Opportunity setDefaultDescription(Opportunity opp) {
-        opp.Description = 'Default description';
+        opp.Description = 'Default Opportunity description';
         return opp;
     }
 }
