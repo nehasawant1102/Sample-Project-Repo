@@ -22,4 +22,15 @@ public class AccountHelper {
         a.Type = 'Partner';
         return a;
     }
+  /**
+     * @description setting DefaultPhone
+     * @param a 
+     * @return account
+     */
+     
+    public static Account setDefaultPhone(Account a) {
+        a.Phone='9999999';
+        return a;
+    }
+  
 }
