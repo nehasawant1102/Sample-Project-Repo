@@ -23,4 +23,15 @@ public class AccountHelper {
         a.Phone='9999999';
         return a;
     }
+    
+       /**
+     * @description setting DefaultType
+     * @param a 
+     * @return account
+     */
+    
+     public static Account setDefaultURL(Account a) {
+        a.website = 'www.copado.com'; 
+        return a;
+    }
 }
